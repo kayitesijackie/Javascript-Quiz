@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Javascript Quiz</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <div class="container">
@@ -24,7 +24,7 @@
                     <p><strong>NOTE:</strong></p>
                     <p>Click the <em>'Submit'</em> button given in the bottom of this page to Submit your answers and get your score.</p>
                 </div>
-                <form>
+                <form id="form"> 
                     <div class="well">
                         <p>1. Which of the following is not a reserved word in JavaScript?</p>
                         <div class="radio"><input type="radio" name="qst1" value="0" required> interface<br></div>
@@ -33,54 +33,55 @@
                     </div>
                     <div class="well">
                         <p>2.Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?</p>
-                        
-                            <div class="radio"><input type="radio" name="qst2" value="20" required>alert(“GeeksforGeeks”);<br></div>
-                        
-                            <div class="radio"><input type="radio" name="qst2" value="0"> alertbox(“GeeksforGeeks”);<br></div>
-                        
-                            <div class="radio"><input type="radio" name="qst2" value="0">msg(“GeeksforGeeks”);<br></div>
-                                             
+                        <div class="radio"><input type="radio" name="qst2" value="20" required>alert(“GeeksforGeeks”);<br></div>
+                        <div class="radio"><input type="radio" name="qst2" value="0"> alertbox(“GeeksforGeeks”);<br></div>
+                        <div class="radio"><input type="radio" name="qst2" value="0">msg(“GeeksforGeeks”);<br></div>
                     </div>
                     <div class="well">
                         <p>3.What is the JavaScript syntax for printing values in Console?</p>
-                        
-                            <div class="radio"><input type="radio" name="qst3" value="0" required> print(5)<br></div>
-                        
-                        
-                            <div class="radio"><input type="radio" name="qst3" value="20">console.log(5);<br></div>
-                          
-                        
-                            <div class="radio"><input type="radio" name="qst3" value="0"> console.print(5);<br></div>
+                        <div class="radio"><input type="radio" name="qst3" value="0" required> print(5)<br></div>
+                        <div class="radio"><input type="radio" name="qst3" value="20">console.log(5);<br></div>
+                        <div class="radio"><input type="radio" name="qst3" value="0"> console.print(5);<br></div>
                     </div>
                     <div class="well">
                         <p>4.Which function of an Array object calls a function for each element in the array?</p>
-                       
-                            <div class="radio"><input type="radio" name="qst4" value="20">forEach()<br></div>
-                        
-                            <div class="radio"><input type="radio" name="qst4" value="0">every()<br></div>
-                        
-                            <div class="radio"><input type="radio" name="qst4" value="0"> forEvery()<br></div>
-                        
+                        <div class="radio"><input type="radio" name="qst4" value="20">forEach()<br></div>
+                        <div class="radio"><input type="radio" name="qst4" value="0">every()<br></div>
+                        <div class="radio"><input type="radio" name="qst4" value="0"> forEvery()<br></div>
                     </div>
                     <div class="well">
                         <p>5. Which of the following is an advantage of using JavaScript?</p>
-                        
-                            <div class="radio"><input type="radio" name="qst5" value="0">Increased interactivity.<br></div>
-                        
-                            <div class="radio"><input type="radio" name="qst5" value="0">Immediate feedback from the users.<br></div>
-                        
-                        
-                            <div class="radio"><input type="radio" name="qst5" value="20">All of the above.   <br><br></div>
-                        
+                        <div class="radio"><input type="radio" name="qst5" value="0">Increased interactivity.<br></div>
+                        <div class="radio"><input type="radio" name="qst5" value="0">Immediate feedback from the users.<br></div>
+                        <div class="radio"><input type="radio" name="qst5" value="20">All of the above.   <br><br></div>
                     </div>
                     <button type="submit" class="btn btn-primary" >Submit</button>
                 </form>
-            </div>
+            <div id="result"></div>
         </div>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>
+                        
+                
+                
+                
+                
+                    
+                    
+                    
+                    
+                    
+                      
+                    
+                    
+                        
+                                             
+                        
+                        
+                        
                         
                         
                         
