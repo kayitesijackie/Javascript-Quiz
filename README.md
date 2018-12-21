@@ -1,6 +1,6 @@
 # JavaScript Quiz
 #### By **Kayitesi Jacqueline**
-##Description of project
+## Description of project
 A project that allows the user to answer questions from a multiple choice questions that I would have created
 ## Link to Site
  https://kayitesijackie.github.io/Javascript-Quiz/
