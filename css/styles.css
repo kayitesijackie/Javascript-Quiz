@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: #ffff;
+    
+}
+.jumbotron{
+    background-color: darkslategray;
+    background-attachment: fixed;
+}
+.well{
+    background-color: lightslategrey;
+}
+.panel{
+    background-color: rgb(197, 134, 118);
+    
+}
+#result{
+    visibility: hidden;
+    background-color: burlywood;
+    height:300px;
+}
+#result{
+    text-align: center;
+    transform: translate(0%,190%);
+    font-size: 40px;
+}
