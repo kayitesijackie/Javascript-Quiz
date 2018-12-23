@@ -1,3 +1,5 @@
+// FRONT-END LOGIC
+
 $(document).ready(function(){
     $("form#form").submit(function(event){
     var q1= $("input:radio[name=qst1]:checked").val();
@@ -17,3 +19,11 @@ $(document).ready(function(){
     event.preventDefault();
     });
 });
+
+// BUSINESS LOGIC
+
+function add(q1,q2,q3,q4,q5) {
+    var result = q1 + q2 + q3 + q4 + q5;
+
+    return result;
+}
