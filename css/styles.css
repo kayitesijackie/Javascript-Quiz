@@ -2,11 +2,10 @@ body {
     background-color: gray;
     color: black;
 }
-
 h1{
     text-align: center;
     color: #ffff;
-    
+    text-shadow: 2px 2px #FF0000;
 }
 .jumbotron{
     background-color: darkslategray;
@@ -20,12 +19,21 @@ h1{
     
 }
 #result{
-    visibility: hidden;
-    background-color: burlywood;
-    height:300px;
-}
-#result{
+    display: none;
+    background-color: lightslategrey;
+    height:100px;
     text-align: center;
-    transform: translate(0%,190%);
-    font-size: 40px;
+    font-size: 80px;
+}
+.btn {
+    background-color: rgb(197, 134, 118);
+    border: 25px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#submit{
+    text-align: right;
+    padding-top: 400px;
 }
