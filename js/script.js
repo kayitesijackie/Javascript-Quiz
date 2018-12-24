@@ -23,7 +23,7 @@ $(document).ready(function(){
 // BUSINESS LOGIC
 
 function add(q1,q2,q3,q4,q5) {
-    var result = q1 + q2 + q3 + q4 + q5;
+    var score = q1 + q2 + q3 + q4 + q5;
 
-    return result;
+    return score;
 }
