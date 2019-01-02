@@ -16,7 +16,6 @@ h1{
 }
 .panel{
     background-color: rgb(197, 134, 118);
-    
 }
 #result{
     display: none;
@@ -24,6 +23,8 @@ h1{
     height:100px;
     text-align: center;
     font-size: 80px;
+    text-shadow: 2px 2px white;
+    font-style: italic;
 }
 .btn:hover {
     background:red;
