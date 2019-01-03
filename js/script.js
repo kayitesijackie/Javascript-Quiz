@@ -8,7 +8,7 @@ $(document).ready(function(){
     var q4= $("input:radio[name=qst4]:checked").val();
     var q5= $("input:radio[name=qst5]:checked").val();
     var result=parseInt(q1)+parseInt(q2)+parseInt(q3)+parseInt(q4)+parseInt(q5);
-    $("#result").text("YOU SCORED IS: " +result + "%");
+    $("#result").text("YOUR SCORE IS: " +result + "%");
 
     $("button").click(function() {
         $("#result").toggle();
